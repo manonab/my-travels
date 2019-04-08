@@ -9,12 +9,18 @@ const user = {
   country:"USA", 
   distance:"20000kms"
 }
+const anthony = {
+  destination:"casablanca", 
+  photo:<img src = 'https://www.officetourismemaroc.com/src/img/villes/Casablanca/casablanca-settat-office-tourisme-maroc-casablanca.png'width="200px" alt="NYC"/>,
+  country:"Maroc", 
+  distance:"2000kms"
+}
 class App extends Component {
   render() {
     return (
       <div className="App">
       <Travel {...user}/>
-      <Travel {...user}/>
+      <Travel {...anthony}/>
       </div>
     );
   }

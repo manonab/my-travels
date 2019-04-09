@@ -1,12 +1,14 @@
 import React from 'react'
 
-
 const Travel = ({destination, country,photo, distance}) => { 
     
     return(
-       <p>
-       destination : {destination} country : {country} photo : {photo} distance : {distance}
-     </p>
+    <div>
+        <img src ={photo}/>
+        <p>
+          destination : {destination} country : {country}  distance :{distance}
+        </p>
+    </div>
     )
 }
    
